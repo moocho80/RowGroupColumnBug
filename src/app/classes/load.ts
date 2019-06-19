@@ -1,0 +1,50 @@
+export class Load {
+    _id: string;
+    load_number: string;
+    destination: string;
+    destination_address:string;
+    ref_number: string;
+    container_number: string;
+    size: string;
+    port: string;
+    port_address:string;
+    mbl: string;
+    eta: Date;
+    lfd: Date;
+    rdy: Date;
+    status: string;
+    outgate_date: Date;
+    outgate_time: string;
+    outgate_window: number;
+    delivery_date: Date;
+    delivery_time: string;
+    delivery_window: number;
+    chassis_display: string;
+    chassis_in_house: boolean;
+    chassis_provider: string;
+    chassis_booking_number: string;
+    chassis_number:string;    
+    chassis_outgate: Date;
+    chassis_return: Date;
+    leg_chassis_pickup: string;
+    leg_port_pickup: string;
+    leg_yard1: string;
+    leg_delivery: string;
+    leg_yard2: string;
+    leg_return_empty: string;
+    leg_chassis_return: string;
+    notes: string;
+    direction: string;
+
+    yard1: string;
+    yard1_in: Date;
+    yard1_out: Date;
+    yard1_notes: string;
+
+    yard2: string;
+    yard2_in: Date;
+    yard2_out: Date;
+    yard2_notes: string;
+    finance: string;
+    completed_date: Date;
+}

@@ -1,0 +1,11 @@
+@import 'ag-grid-community/dist/styles/ag-grid.css';
+@import 'ag-grid-community/dist/styles/ag-theme-balham.css';
+
+.grid-img{
+    width:20px;height:20px;
+    border: 2px solid transparent;
+}
+.grid-img:hover{
+    border:1px solid transparent;
+    cursor: pointer;
+}
