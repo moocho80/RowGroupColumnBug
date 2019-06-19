@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   load:Load;colId
 
   columnDefs = [
-    {headerName:'status', field: 'status',pinned:'left',lockPosition: true, rowGroup:true},
+    {headerName:'status', field: 'status',pinned:'left',lockPosition: true, rowGroup:true, hide:true},
     { headerName: 'Load #', field: 'load_number', width: 74, pinned: 'left', lockPosition: true, suppressMovable: true }
     , { headerName: 'Destination', field: 'destination', width: 120, pinned: 'left', editable:true }
     , { headerName: 'Ref #', field: 'ref_number', width: 80, pinned: 'left', editable: true }
