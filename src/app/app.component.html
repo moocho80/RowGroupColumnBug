@@ -1,3 +1,30 @@
-<ag-grid-angular domLayout='autoHeight' class="ag-theme-balham" 
-[rowData]="rowData | async" [columnDefs]="columnDefs" [frameworkComponents]="frameworkComponents"
-></ag-grid-angular>
+<ag-grid-angular domLayout='autoHeight' class="ag-theme-balham" [rowData]="rowData | async" [gridOptions]="gridOptions">
+</ag-grid-angular>
+
+<table  id="example" class="sfc_table">
+    <thead>
+        <tr>
+            <th>PART NUMBER</th>
+            <th>COST</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2" class="innerHeader March">March</td>
+        </tr>
+        <tr>
+            <td>ThisEXAMPLE</td>
+            <td>£40.00</td>
+        </tr>
+        <tr>
+            <td >Your spend this month:</td>
+            <td>£40.00</td>
+        </tr>
+        <tr class="total">
+            <td >Your total spend</td>
+            <td>£40.00</td>
+        </tr>
+    </tbody>
+</table>
+
+<button type="button" (click)="toPDF()">To PDF</button>

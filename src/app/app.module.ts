@@ -7,14 +7,12 @@ import 'ag-grid-enterprise';
 import { PriceComponent } from './price/price.component'
 import { HttpClientModule } from '@angular/common/http';
 import { InitialDatesCellComponent } from './initial-dates-cell/initial-dates-cell.component';
-import { PopAddressComponent } from './pop-address/pop-address.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PriceComponent,
-    InitialDatesCellComponent,
-    PopAddressComponent
+    InitialDatesCellComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
