@@ -1,3 +1,5 @@
+<ngb-datepicker #dp [(ngModel)]="model" (navigate)="date = $event.next"></ngb-datepicker>
+
 <ag-grid-angular domLayout='autoHeight' class="ag-theme-balham" [rowData]="rowData | async" [gridOptions]="gridOptions">
 </ag-grid-angular>
 

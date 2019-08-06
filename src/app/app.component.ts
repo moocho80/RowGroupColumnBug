@@ -52,7 +52,7 @@ export class AppComponent implements OnInit {
 
   toPDF() {
     var doc = new jsPDF();
-    doc.autoTable({html: '#example'});
+    // doc.autoTabl/e({html: '#example'});
     doc.save('Test.pdf');
   }
 }

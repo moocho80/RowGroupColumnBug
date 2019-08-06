@@ -7,6 +7,7 @@ import 'ag-grid-enterprise';
 import { PriceComponent } from './price/price.component'
 import { HttpClientModule } from '@angular/common/http';
 import { InitialDatesCellComponent } from './initial-dates-cell/initial-dates-cell.component';
+import {NgbDatepicker} from '@ng-bootstrap/ng-bootstrap'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,7 @@ import { InitialDatesCellComponent } from './initial-dates-cell/initial-dates-ce
     InitialDatesCellComponent
   ],
   imports: [
-    BrowserModule, HttpClientModule,
+    BrowserModule, HttpClientModule, NgbDatepicker,
     AgGridModule.withComponents([PriceComponent, InitialDatesCellComponent])
   ],
   providers: [],
